@@ -21,6 +21,13 @@ jobs:
           tenant-id: defb5fbe-74e0-453c-9d33-594936bf34c5
           subscription-id: 81cc1915-8d88-419e-8fa3-0178811761bd
           auth-type: SERVICE_PRINCIPAL
+          
+    - name: HashiCorp - Setup Terraform
+      uses: hashicorp/setup-terraform@v2.0.3
+      with:
+        terraform_version: latest
+       
+                   
                 
           
           
