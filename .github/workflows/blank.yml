@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+    - main
+    - release/*
+    - Pipeline
+
+jobs:
+  prashant_job:
+    name: runner
+    runs-on: ubuntu-latest
+    
+
