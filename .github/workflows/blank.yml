@@ -33,6 +33,8 @@ jobs:
       run: terraform init
     - name: mai prashant verma terraform validate chalana chahta hu 
       run: terraform validate
+    - name: mai prashant verma terraform plan chalana chahta hu 
+      run: terraform plan
      
       
        
