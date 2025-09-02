@@ -29,6 +29,11 @@ jobs:
         
     - name: mai prashant verma please tell me version of terraform
       run: terraform -version
+    - name: mai prashant verma terraform init chalana hai 
+      run: terraform init
+    - name: mai prashant verma terraform validate chalana chahta hu 
+      run: terraform validate
+     
       
        
                    
